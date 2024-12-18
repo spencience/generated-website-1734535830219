@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop EnergyBites - Natural Energy Bars | EnergyBites</title>
+    <meta name="description" content="Shop our selection of all-natural energy bars made from whole foods. Choose from Nuts & Honey, Fruit Fusion, and Seed Supreme varieties. Free shipping on orders over $50.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .pulse-hover:hover {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
+    <header class="bg-amber-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-col md:flex-row justify-between items-center">
+                <a href="/generated-website-1734535830219/" class="text-2xl font-bold mb-4 md:mb-0 pulse-hover">
+                    EnergyBites
+                </a>
+                <ul class="flex space-x-6">
+                    <li><a href="/generated-website-1734535830219/products.html" class="hover:text-amber-200 transition-colors">Products</a></li>
+                    <li><a href="/generated-website-1734535830219/ingredients.html" class="hover:text-amber-200 transition-colors">Ingredients</a></li>
+                    <li><a href="/generated-website-1734535830219/nutrition.html" class="hover:text-amber-200 transition-colors">Nutrition</a></li>
+                    <li><a href="/generated-website-1734535830219/about.html" class="hover:text-amber-200 transition-colors">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h1 class="text-3xl font-bold text-amber-900 mb-6">Shop Our Energy Bars</h1>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div class="bg-amber-50 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h2 class="text-xl font-semibold text-amber-800 mb-3">Nuts & Honey Bar</h2>
+                    <p class="text-gray-600 mb-4">A perfect blend of almonds, walnuts, and pure honey</p>
+                    <p class="text-2xl font-bold text-amber-900 mb-4">$3.99</p>
+                    <form method="GET" action="/generated-website-1734535830219/cart" class="space-y-4">
+                        <input type="hidden" name="product" value="nuts-honey">
+                        <select name="quantity" class="w-full p-2 border border-amber-300 rounded">
+                            <option value="1">1 Bar</option>
+                            <option value="6">6 Pack - Save 10%</option>
+                            <option value="12">12 Pack - Save 15%</option>
+                        </select>
+                        <button type="submit" class="w-full bg-amber-600 text-white py-2 px-4 rounded hover:bg-amber-700 transition-colors">
+                            Add to Cart
+                        </button>
+                    </form>
+                </div>
+
+                <div class="bg-amber-50 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h2 class="text-xl font-semibold text-amber-800 mb-3">Fruit Fusion Bar</h2>
+                    <p class="text-gray-600 mb-4">Sweet dates, figs, and antioxidant-rich berries</p>
+                    <p class="text-2xl font-bold text-amber-900 mb-4">$3.99</p>
+                    <form method="GET" action="/generated-website-1734535830219/cart" class="space-y-4">
+                        <input type="hidden" name="product" value="fruit-fusion">
+                        <select name="quantity" class="w-full p-2 border border-amber-300 rounded">
+                            <option value="1">1 Bar</option>
+                            <option value="6">6 Pack - Save 10%</option>
+                            <option value="12">12 Pack - Save 15%</option>
+                        </select>
+                        <button type="submit" class="w-full bg-amber-600 text-white py-2 px-4 rounded hover:bg-amber-700 transition-colors">
+                            Add to Cart
+                        </button>
+                    </form>
+                </div>
+
+                <div class="bg-amber-50 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h2 class="text-xl font-semibold text-amber-800 mb-3">Seed Supreme Bar</h2>
+                    <p class="text-gray-600 mb-4">Nutrient-rich blend of pumpkin, sunflower, and chia seeds</p>
+                    <p class="text-2xl font-bold text-amber-900 mb-4">$3.99</p>
+                    <form method="GET" action="/generated-website-1734535830219/cart" class="space-y-4">
+                        <input type="hidden" name="product" value="seed-supreme">
+                        <select name="quantity" class="w-full p-2 border border-amber-300 rounded">
+                            <option value="1">1 Bar</option>
+                            <option value="6">6 Pack - Save 10%</option>
+                            <option value="12">12 Pack - Save 15%</option>
+                        </select>
+                        <button type="submit" class="w-full bg-amber-600 text-white py-2 px-4 rounded hover:bg-amber-700 transition-colors">
+                            Add to Cart
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="bg-amber-50 p-6 rounded-lg mt-8">
+                <h2 class="text-xl font-semibold text-amber-800 mb-4">Shipping Information</h2>
+                <ul class="space-y-2 text-gray-700">
+                    <li>Free shipping on orders over $50</li>
+                    <li>Ships within 1-2 business days</li>
+                    <li>Satisfaction guaranteed or your money back</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-amber-900 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <p>Email: hello@energybites.food</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535830219/faq.html" class="hover:text-amber-200">FAQ</a></li>
+                        <li><a href="/generated-website-1734535830219/shipping.html" class="hover:text-amber-200">Shipping</a></li>
+                        <li><a href="/generated-website-1734535830219/wholesale.html" class="hover:text-amber-200">Wholesale</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734535830219/social.html" class="hover:text-amber-200">Social</a>
+                        <a href="/generated-website-1734535830219/foodgram.html" class="hover:text-amber-200">Foodgram</a>
+                        <a href="/generated-website-1734535830219/fooditter.html" class="hover:text-amber-200">Fooditter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                <p>&copy; 2024 EnergyBites. All rights reserved. Made with real food for real people.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

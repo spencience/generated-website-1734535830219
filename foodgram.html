@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodgram - Share Your Culinary Journey</title>
+    <meta name="description" content="Join the world's largest food-focused social network. Share recipes, discover dishes, and connect with food lovers globally.">
+    <meta name="keywords" content="foodgram, food social media, recipe sharing, food photography, culinary community">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .pulse-hover:hover {
+            animation: pulse 2s infinite;
+        }
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .food-card {
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .food-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gradient-to-br from-orange-50 to-amber-100">
+    <header class="bg-amber-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-col md:flex-row justify-between items-center">
+                <a href="/generated-website-1734535830219/" class="text-2xl font-bold mb-4 md:mb-0 pulse-hover">
+                    Foodgram
+                </a>
+                <ul class="flex space-x-6">
+                    <li><a href="/generated-website-1734535830219/explore.html" class="hover:text-amber-200 transition-colors">Explore</a></li>
+                    <li><a href="/generated-website-1734535830219/recipes.html" class="hover:text-amber-200 transition-colors">Recipes</a></li>
+                    <li><a href="/generated-website-1734535830219/trending.html" class="hover:text-amber-200 transition-colors">Trending</a></li>
+                    <li><a href="/generated-website-1734535830219/create.html" class="hover:text-amber-200 transition-colors">Create Post</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="mb-8">
+            <form method="GET" action="/generated-website-1734535830219/search" class="max-w-2xl mx-auto">
+                <input type="search" name="q" placeholder="Search recipes, users, or tags..." class="w-full px-4 py-2 rounded-lg border-2 border-amber-300 focus:outline-none focus:border-amber-500">
+            </form>
+        </div>
+
+        <div class="food-grid">
+            <article class="food-card bg-white shadow-lg">
+                <div class="p-4">
+                    <a href="/generated-website-1734535830219/post/homemade-pasta.html" class="block">
+                        <div class="h-48 bg-amber-200 rounded-lg mb-4"></div>
+                        <h2 class="text-xl font-bold text-amber-900">Homemade Pasta Adventure</h2>
+                        <p class="text-gray-600">@pastamaster</p>
+                        <p class="mt-2">First time making fresh pasta from scratch! 🍝 #ItalianCuisine</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="food-card bg-white shadow-lg">
+                <div class="p-4">
+                    <a href="/generated-website-1734535830219/post/vegan-bowl.html" class="block">
+                        <div class="h-48 bg-amber-200 rounded-lg mb-4"></div>
+                        <h2 class="text-xl font-bold text-amber-900">Rainbow Buddha Bowl</h2>
+                        <p class="text-gray-600">@veggielover</p>
+                        <p class="mt-2">Packed with nutrients and colors! 🥗 #VeganLife</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="food-card bg-white shadow-lg">
+                <div class="p-4">
+                    <a href="/generated-website-1734535830219/post/sourdough.html" class="block">
+                        <div class="h-48 bg-amber-200 rounded-lg mb-4"></div>
+                        <h2 class="text-xl font-bold text-amber-900">Sourdough Success</h2>
+                        <p class="text-gray-600">@breadmaster</p>
+                        <p class="mt-2">After 3 days of waiting, pure perfection! 🍞 #Baking</p>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-amber-900 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Community</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535830219/guidelines.html" class="hover:text-amber-200">Guidelines</a></li>
+                        <li><a href="/generated-website-1734535830219/help.html" class="hover:text-amber-200">Help Center</a></li>
+                        <li><a href="/generated-website-1734535830219/safety.html" class="hover:text-amber-200">Safety</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535830219/about.html" class="hover:text-amber-200">About Us</a></li>
+                        <li><a href="/generated-website-1734535830219/careers.html" class="hover:text-amber-200">Careers</a></li>
+                        <li><a href="/generated-website-1734535830219/press.html" class="hover:text-amber-200">Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734535830219/privacy.html" class="hover:text-amber-200">Privacy</a></li>
+                        <li><a href="/generated-website-1734535830219/terms.html" class="hover:text-amber-200">Terms</a></li>
+                        <li><a href="/generated-website-1734535830219/cookies.html" class="hover:text-amber-200">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                <p>&copy; 2024 Foodgram. Share your culinary journey.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
